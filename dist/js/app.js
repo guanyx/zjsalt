@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";__webpack_require__(1),__webpack_require__(20),__webpack_require__(26);
+	"use strict";__webpack_require__(1),__webpack_require__(20),__webpack_require__(26),$("input, textarea").placeholder();
 
 /***/ },
 /* 1 */
