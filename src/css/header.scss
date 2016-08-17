@@ -52,8 +52,8 @@
   }
 
   &-badge{
-    height: 18px * $base;
-    width: 18px * $base;
+    height: 18px;
+    width: 18px;
     text-align: center;
     line-height: 20px * $base;
     color: #FFF;
@@ -72,8 +72,8 @@
   }
 
   &-avatar{
-    height: 42px * $base;
-    width: 42px * $base;
+    height: 42px;
+    width: 42px;
     text-align: center;
     line-height: 42px * $base;
     background-image: url("../img/circle_03.png");
