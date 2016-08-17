@@ -2,6 +2,8 @@
 @import "./scrollbar";
 @import "./font-awesome.min.css";
 
+$base: 0.7;
+
 *{
   box-sizing: border-box;
 }
@@ -13,21 +15,21 @@ ul{
 }
 
 .container{
-  padding-bottom: 75px;
+  padding-bottom: 75px * $base;
   line-height: 1;
 }
 
 .main{
-  padding: 0 70px;
-  height: 755px;
-  margin-top: 20px;
+  padding: 0 70px * $base;
+  height: 755px * $base;
+  margin-top: 20px * $base;
 }
 
 .section{
   height: 100%;
   width: 100%;
   position: relative;
-  padding-left: 225px;
+  padding-left: 225px * $base;
 }
 
 .caret{
@@ -35,17 +37,17 @@ ul{
   width: 0;
   height: 0;
   vertical-align: middle;
-  border-top: 6px solid #000;
-  border-right: 6px solid transparent;
-  border-left: 6px solid transparent;
+  border-top: (6px * $base) solid #000;
+  border-right: (6px * $base) solid transparent;
+  border-left: (6px * $base) solid transparent;
   content: "";
 }
 
 .menu-left{
   height: 100%;
-  width: 4px;
+  width: 4px * $base;
   background-color: rgb(237, 237, 237);
-  left: 10px;
+  left: 10px * $base;
   top: 0;
   position: absolute;
 }
