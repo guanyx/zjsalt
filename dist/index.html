@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>浙盐集团业务综合管理系统</title>
+<link href="css/index.css" rel="stylesheet"></head>
+<body>
+<div class="container">
+    <div class="header">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAoCAYAAABuDmFRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3RkJFNTBFNjVCRUIxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3RkJFNTBFNTVCRUIxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQ0REQkVCM0IyNjNFNjExQUFEMkRBQzRCMDMyM0MwRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIvPiA8L3JkZjpEZXNjcmlwdGlv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" class="logo">
+    <div class="header-name">业务综合管理系统</div>
+
+    <div class="header-right">
+        <div class="header-message">新消息<div class="header-badge">3</div></div>
+        <div class="header-company">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAtElEQVQ4jcXSMVLDMBCF4c8anyKZweMUIZeggIqT+IhQOgU+hGlShRwDCuSxR2PZzlDwGu2u5v1arVQ0TSPq26gD3vEY80+84iJRSAtR54kZjmhRbwU8oMceuxhXc5AcoMcLvnDDcw4yAOqMeVAWEmLQLpgXIcHvtKsVcw7yFozTXjOnEDiVk41rXIsVwPS/CPjYcGpOXYmnOfJMnnZWDB38Sf8PKGdq6d0X69MO7nmNbgh+AC74K8tFMRnaAAAAAElFTkSuQmCC">
+            浙江省盐业集团有限公司
+        </div>
+        <div class="header-user">
+            <div class="header-avatar">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABBUlEQVQ4ja3TPUpDURAF4C8PCRZitPOv0EJ0ARZiKWJh6RYCrxJrVxAkndiqG8gC0tipwS2IhRZCihTB0oBokQlewxOexoHhzj33nMPcv0qe5wpiHafYi/k1TvA4TpwqEG/gHnMJdohdbOMhJWcFBo0Qt7EU2Q6sMU4uMhi1XUc3sh7YfhmD2Ri7CTaqZ8oY/Cr+3WAFg6gXE3whxkFSfzOYxjmeUA3sIsjLuAysGpyz0MhQww2O8IYr9HBgeHgvUfdi7R3HoallaGILHWwaXtkOWniNbAVWD04nNM1Knud9w0eyhuefDmssVmMr/czXky0rTrnzE19j+pk+/mKQ4XaCBu4+AV+2MMhOy0pGAAAAAElFTkSuQmCC">
+            </div>
+            欧阳甜甜
+            <div class="caret"></div>
+        </div>
+    </div>
+</div>
+    <div class="nav">
+    <div class="nav-time">9:35AM</div>
+    <div class="nav-date">
+        <div class="nav-day">2016年5月24日</div>
+        <div>
+            <div class="nav-cnday">星期二</div>
+            <div class="nav-city">杭州</div>
+        </div>
+    </div>
+    <div class="nav-weather">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAFnElEQVRIiZ2UXWgb2RmG35lzZsbW7ygaWZYi/0jrOHYkJZjYjps2iZZsXHZJSQPZlG4pbXpRUhZ6E0p72VIo7ZbS7Q8NDbTQ4r0IWUoxuSh0qe0kxruBTZ0GJ06MLSNZVizLsieKpBnNzDm9yDrr7Cawu+/dORye8/F+7/cJ4+PjYIxBVVVEIhHMzMxAlmVYlgVCyL5EIvFrxhjPZrMXHMe5TymFbds4fPgwVlZWUKlUIIoinif6yQvOORRFQW9vLzjn7f39/a8xxkAI+RVj7H4+n4dt28+FfQpu2zYYY3Ac5yRjbKDZbL5TLBaXdF2HqqpmX1+f6TgOr9frFgBsbGyAUrrXcZw3bNuesW37Xy+sPJlMgnMOt9v9Y03TvtxsNr80MTHx5sOHD7OlUmnJsqxfmqbJIpHIfD6fh2VZPUeOHPljd3f3K263+z1d118Mn56eBmMMmqaNnThx4uC+fftG5+bmvloulz9MJpPnPR5PyHEceDyenzx48GAsFAq9nEqlXqnVao9v3bp1pVQqgdJPuQsAEC5evAjLstDW1iYqivK62+0e2dzctDKZzDcDgUCbrut1APB6va5yuVyYmJj4WzgcVkul0sz8/Py70WiUcc5h2zZs24YgCB/DL1++jGAwiGq1imw2i9bW1uNnzpx5B4Bw7dq1t5aXl/8JAPF4/PWjR49esCyreuXKle9UKpXrfr8fAwMDKBQKWF9fB2PsGTg5ffr0LlmWvYZhSI8fP44cO3bs9+FwuGNsbOzNbDZ7SVXVTUmSNhcWFm7kcrm1kZGRs7IsxwuFwn8SiUQLAPXRo0dKo9FgAJ6JEY3FYn/SNE01DKNuGMaN3bt3JxcXF/9bLBbHfT4fTNOEKIrw+XxYX18fz+VyP+zq6joYiUTO9fT0vKwoisflcpUMw3jLMIwbO5tLu7u7T3V2drY0Gg2srKysAGhWq1Xd4/E0JEl6+tDr9aKlpYXV6/VGJBJRdu3atT8Wi32FEGK2trb2FwqFv9u2/Uxz6Z07d75vGMZLpVKpkMvlVhuNxjei0WivLMsvKYqyQAiBpmmo1+sIBAKdsVisL5fL3S0Wi7+5evXqX6vVqt+yLJ0x9iEhBIyxjz0/efLk/1RVndzc3Lyl6/qyZVmhwcHBr9VqNaVYLN4WBOFROByGbduQZTnmOE7b1NTUH1Kp1KFkMnmqo6NjuL29vddxHEIImRNFkRFCQCkFOXv2LNxuN3K5HDjn7nw+X/R4PP1DQ0NfN00ztLy8/J7f7x+NRqPnTdMU8/n8pXQ6/b3h4eELmqalQ6FQTzQaTcfj8eO6rtu6rt+klD75IBgMwrIsNBqNrnQ6/QtN06LXr18f29jYmK9UKpVUKvXzTCbzXVmWvaZp1tbW1mY7OzsPUUrlnclwuVzegYGBH5XL5alarfa+KIqgkiTBcRwMDw//NJ1Ov2FZVt3tdl9aWlr6Aed8JJPJ/MPlcvkBgFLqTSQSR547jgB8Pl9wz549B6vV6geCIHDq9Xq3d4uvVqsVJycn385ms++KoujE4/EOv9/f9iLYJ8U5BwAyOzvLGWOgi4uL27vlvCRJ0bt3795WVRXBYHBPX1/fOULIZ2VDlmVomvatYDB4Z21tbUokhIAQAlEU1wVBuK1pGmKxWFtPT8/b+/fvH905zp9FXV1dw6Ojo39pb28//jTx2/kcHBwEgEN79+599XNRdygcDseHhobOUeCJV8FgELIsIxqNQhTFNkrp5yt5hzjnCAQC3ZRzDkEQUCqVUC6XwRiDoijZAwcOGLIst3wRuCAIWF1dnRW3D7quo1KpYGtrC6urqzM3b978nWVZX6jyubm5yenp6d8+9XznNmOMNba2tn62sLBwj1L6bUmSXJxz86NCBP4kc9u28Y/uxWazKUmS9O979+79uVarrf4f3OGTUy97YV0AAAAASUVORK5CYII=">
+        <div class="nav-temp">
+            23
+        </div>
+    </div>
+
+    <div class="nav-notice">
+        最新公告
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA2UlEQVQ4jZWTMU4DMRBFnyFKww0C2rPkLhwjHIBDIAQVFPSIKt2KLlIKohTQJz31o2ANzu54lXxpCuv7f834j5NKBVPgDmiAeY9rgFdgjxrVufriL757XKN+dtyqJn7yEJF4q84igweHyNxHIb5UQW0Dgep1YPCurrM4G0S4US8Cg0FNipdNtTjGcHbi/RawqOWpBn2kpH+bFI0wxgGHI5StLY7uYSTG2yCFtotxVsbYr8fALHOb7rzNJrVVfq4YHLXKqBPHP9NXx63SfwgDTIF74Ir4O78Bux/aBwkMZQJsZwAAAABJRU5ErkJggg==">
+        <ul>
+            <li>无公告信心</li>
+        </ul>
+    </div>
+
+    <div class="nav-btns">
+        <div class="nav-btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAABFklEQVQokY2RzyvEURTFj0eRXwsmO1sbyX+grLGw12Rhw87G1sbOnoUlC6VsSSZLKX8ARkqJpDQlFDUfC+fleTN9Z07dbvfcc8+77z0BJ8BrFkeAHBVzl8A6UEp6EnBBI24sCMB11nsBZlKDMeAtE20lp3QCQ8C0NwP4AmajwSDwlBnMpWtmsZFsMiBgzcR34t5fYNABnFm7KuDcRRm4AvYLhmPMe+ZUQM3FsN1bDQsY9cxdkNSjX7xLQu2h25kg6dbFZBuDh5IqkqZcVwVsep29FmuPAHVrP5xX4n0isVhgsMB/3AO9sblksg7sAONNDHYzg0eglAqWgc9MdMzf3z/TiIOQPNC2pAnnB3NdzkFSrcmj9v0ASEFpjSxkZfwAAAAASUVORK5CYII="><span>单位转换</span><div class="caret"></div></div>
+        <div class="nav-btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdElEQVQ4je1TWw6AIAzrjNfybrsbeK76gcBEN0388cMmhFfbjG0ISQRI+7x4BLkxqJfiEaZI/QS/QTFI6OUCAEXJvi1P3as5Kzp2wAzlGTpwmujKYDQZxU03B89TZ32AsLei220OCHyhjDYH4a+KIsgvAlg3Z2GINgk7kPYAAAAASUVORK5CYII="><span>下载中心</span><div class="caret"></div></div>
+        <div class="nav-btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABAElEQVQ4jZ2SvU7DQBCExzQ0NqRwqoDyJLzEvQcW7+giTboEBfEMSESh4SfSRzOXLLLPSBlp5dPO7Fi3cxWgCWSyKgmuwrmR1E65Ga2k+vwLEFADPbAFFkAHrDhj5d7Cmt4zJ4O5CYAjZWRu65mTgez+Y8ErkIAbV3IPa+7zXDR4tOAFmIV+rpk5rB0Y5DunkeFcKexEgCoY5Hgr6eBz7++Dv7Wkj1KMJRTfQIzx4itEsjO5m1jizppuzOAO+A5JJKBxpZDA0do/BnNgEwQlDB5SXuKnpL2kZ0lLSU+S1mFVa/eW1rx7RlVIsZF0Lekt7ngkiVbSlxxnNBgN6b8ofwGqQwsuxl4BmwAAAABJRU5ErkJggg=="><span>打印设置</span></div>
+    </div>
+</div>
+    <div class="main-menu">
+    <div class="main-menu-inner">
+        <ul>
+            <li><i class="fa fa-wpforms"></i>我的菜单</li>
+            <li><i class="fa fa-plus-square-o"></i>采购管理</li>
+            <li class="active"><i class="fa fa-list-alt"></i>销售管理</li>
+            <li><i class="fa fa-file-text"></i>仓库管理</li>
+            <li><i class="fa fa-search"></i>报表查询</li>
+            <li><i class="fa fa-calendar-check-o"></i>生产质检</li>
+            <li><i class="fa fa-th-large"></i>基础数据</li>
+        </ul>
+    </div>
+</div>
+    <div class="main">
+        <div class="section">
+            <div class="menu-left"></div>
+            <ul class="menu">
+    <li><i class="fa fa-wpforms"></i>我的菜单</li>
+    <li><i class="fa fa-plus-square-o"></i>采购管理</li>
+    <li><i class="fa fa-edit"></i>订单管理</li>
+    <li class="active"><i class="fa fa-list-alt"></i>销售管理</li>
+    <li><i class="fa fa-user"></i>客户经理</li>
+    <li><i class="fa fa-users"></i>客户关系</li>
+    <li><i class="fa fa-database"></i>调运管理</li>
+    <li><i class="fa fa-copy"></i>配送管理</li>
+    <li><i class="fa fa-file-text"></i>仓库管理</li>
+    <li><i class="fa fa-clipboard"></i>综合报表</li>
+    <li><i class="fa fa-search"></i>综合查询</li>
+    <li><i class="fa fa-book"></i>领导查询</li>
+    <li><i class="fa fa-th-list"></i>生产管理</li>
+    <li><i class="fa fa-calendar-check-o"></i>质检管理</li>
+    <li><i class="fa fa-th-large"></i>基础信息管理</li>
+    <li><i class="fa fa-link"></i>接口管理</li>
+    <li><i class="fa fa-key"></i>资金管理</li>
+    <li><i class="fa fa-tv"></i>系统管理</li>
+</ul>
+            <div class="content">
+    <div class="triangle">
+        <div class="triangle-black"></div>
+        <div class="triangle-white"></div>
+    </div>
+    <div class="table">
+    <div class="table-head">
+        <div class="table-head-inner">
+            <div class="table-has-line" style="width: 15.8%">消息编号</div>
+            <div class="table-has-line" style="width: 17.4%">消息标题</div>
+            <div class="table-has-line" style="width: 17.3%">失效日期</div>
+            <div class="table-has-line" style="width: 17.4%">是否删除</div>
+            <div style="width: 32.1%">备注</div>
+        </div>
+    </div>
+    <div class="table-table">
+        <div class="table-table-inner">
+            <table>
+                <tr>
+                    <td style="width: 15.8%">201607060001</td>
+                    <td style="width: 17.4%">7月月度计划</td>
+                    <td style="width: 17.3%">016年7月6日</td>
+                    <td style="width: 17.4%">正常</td>
+                    <td style="width: 32.1%">巴拉巴拉</td>
+                </tr>
+                <tr class="odd">
+                    <td>201607060001</td>
+                    <td>7月月度计划</td>
+                    <td>016年7月6日</td>
+                    <td>正常</td>
+                    <td>巴拉巴拉</td>
+                </tr>
+                <tr>
+                    <td>201607060001</td>
+                    <td>7月月度计划</td>
+                    <td>016年7月6日</td>
+                    <td>正常</td>
+                    <td>巴拉巴拉</td>
+                </tr>
+                <tr class="odd">
+                    <td>201607060001</td>
+                    <td>7月月度计划</td>
+                    <td>016年7月6日</td>
+                    <td>正常</td>
+                    <td>巴拉巴拉</td>
+                </tr>
+                <tr>
+                    <td>201607060001</td>
+                    <td>7月月度计划</td>
+                    <td>016年7月6日</td>
+                    <td>正常</td>
+                    <td>巴拉巴拉</td>
+                </tr>
+                <tr class="odd">
+                    <td>201607060001</td>
+                    <td>7月月度计划</td>
+                    <td>016年7月6日</td>
+                    <td>正常</td>
+                    <td>巴拉巴拉</td>
+                </tr>
+                <tr>
+                    <td>201607060001</td>
+                    <td>7月月度计划</td>
+                    <td>016年7月6日</td>
+                    <td>正常</td>
+                    <td>巴拉巴拉</td>
+                </tr>
+                <tr class="odd">
+                    <td>201607060001</td>
+                    <td>7月月度计划</td>
+                    <td>016年7月6日</td>
+                    <td>正常</td>
+                    <td>巴拉巴拉</td>
+                </tr>
+                <tr><td>1</td></tr>
+                <tr class="odd"><td>1</td></tr>
+                <tr><td>1</td></tr>
+                <tr class="odd"><td>1</td></tr>
+                <tr><td>1</td></tr>
+                <tr class="odd"><td>1</td></tr>
+                <tr><td>1</td></tr>
+                <tr class="odd"><td>1</td></tr>
+                <tr><td>1</td></tr>
+                <tr class="odd"><td>1</td></tr>
+                <tr><td>1</td></tr>
+                <tr class="odd"><td>1</td></tr>
+            </table>
+        </div>
+    </div>
+    <div class="table-page">
+        <div class="table-page-wrapper">
+            <div class="table-page-center">
+                <div class="table-page-begin">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFOTBBREEzRDVCRUIxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFOTBBREEzQzVCRUIxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQ0REQkVCM0IyNjNFNjExQUFEMkRBQzRCMDMyM0MwRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkumWrsAAAG7SURBVHjavJTLSsNAFIbPTKoVk9aN4qVib4ILxVXfoForLoRi3sBXEEFbUKpbXfkKIhTqRrxBXfgArlyKacBLdSOkjJaS5HgmFRGEkoo62YThzDf/JYQhIvzGYn8KWty78jb3l6cYuPTCERjjgI6bFjaGdy7uSkupgUAq0vd5JtD+HgTkDOTjImaEDeGtE7N0c193mo5rp3J9AV8gqQKkYoR0w0a1eGyUjJqAZERTVmei+tdZ3g7kOtISS7+RnY0jo3z7KCA+rEIhG9dDPfzl62x7RRwy9YatFk/N8m1NOMkRTclnozktyCzKtuIbJJroQQxSMj6qKWuzY7rWzS2yWumotYlICK6rFiSknfk4QdgLnSAI8+bUYLfPjFx0vLz5R2KICiCTuX2bbQtaoWZiQyqYtVeneGyWX6k5EpORJQB2ACIrVmEulosPqGA8Cdg8qZbrDVeVJTDO/IPo9grVfFhYiOqJYU0qg63TFgzRTfsHIXh5qF3ckrXHhnrBeBbO9plJMAx3oqjFo7q1IBd5spkY1BTjQTR3L+8O/IM8iPy6PWXnoR5mrc9Fc5PJMOjT/cH/+438ZL0LMABZQ8qH4KarmgAAAABJRU5ErkJggg==">
+                </div>
+                <div class="table-page-previous">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NjNENzIwODVCRUMxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NjNENzIwNzVCRUMxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQ0REQkVCM0IyNjNFNjExQUFEMkRBQzRCMDMyM0MwRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PigzGhgAAAHHSURBVHjarJTLSutQFIbX3vFYMbFOFK/YmzPBkW9QrYIjC3kUUdSCUp0d8DUEISJIvUAmjn0EaYx4qU7ElF3TmGS5dlsED3jcYBM2O8ngy/+vL4QjInRjcejS8QUk/ABEk9ab3JvQCN7pupl/rvsr68fX4dX967egni93FBEYbZyBPGPEggghuXvqHl7f16MgisO54mDPzyAJYKwNRMj7IerlinPo1ATkJgxtbT5lKlWTkDhCueffQkxunzhW9VFAZkyH0lLGHOjjL0rVMCYIh0LdD/XymWtVayLKjRva1lKqaCSYR3ZstRkxKIgAWxCHkkxPGtrGwpRp9HKPqtr/s/bPsCH6a99a1QcBWaqzWUgThL0Ak0mYun5Gw45jjKgemZNPaGKIGmBHgiqIdNurZCY9qoNba0Tlims1yJysLCVQYjUQp7dSFa+0mC5mhnVwngTsnN5YdT/WpQSZWAnUGbhNmo9KyykzO2bIZLB71oYhxnklELY/xNY89D/ck9rTo/3gPIto79wlGCbVEiF8yiGmbSS42KKa2RFDcx5EsH95d6BerZNMSqJkFwN9zNtcTBVnckkwZ4cS34FYq063fyO/OT4EGAA2vgm9CgwCpQAAAABJRU5ErkJggg==">
+                </div>
+                <div class="table-page-nums">
+                    <input class="table-page-num" />
+                    OF
+                    <input class="table-page-num" />
+                </div>
+                <div class="table-page-next">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NjNENzIwQzVCRUMxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NjNENzIwQjVCRUMxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQ0REQkVCM0IyNjNFNjExQUFEMkRBQzRCMDMyM0MwRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvaNQ/MAAAG2SURBVHjazFTLSsNAFL2T9EXTZCeoVVtpXbn1CwxUcaXFgt8hFkoVCtWCv+LCQBdKVfIFuhLciJLWWrTdFNOkrzzGOxUXSsUUXHhhEsjMnDmPOyGUUviLIn8FBAzo+7h51iF7ej9odnpbRm8gG90+GP0BmIPhaIzbw40DP7l+te8aOl88qyrmkErAkdTnoT/VWKA9eT4TnxL4arMLxYqm9CwqAAWZEDIZkODn9MLGYjo+HQatZTqFc00xLVeiLpUnMrs7tJiMVKdvC6WLuvL4YkByJgL5tVhaDHG6EAyonhjhyfiASzHkM/fXY5kEgjBmRxfMM1fyzIglMyp3tELuOSAVzjTlqdV1luckON5M+jwx+jpLwEWGPL5tywWbuta4pb5f2oz5FCpdoU8Nw0lGRT4rx3Y8p8ZiRsEpFnvpsl5Gs53kbIRnfkWCpO3do/5QRlOFYqVaZkyWkEkeQcQA10aFKqbmTRrrmcNKTdGappNAJrnUQkYK8YyJOlEf5coP9m3tDTB2/mA9non4mRyqEu7DiXDA743R9sqUD/Ht3dVoWgxyOvaVCsw3/PjTNSH/7n/0LsAAEhH+WKmDX2IAAAAASUVORK5CYII=">
+                </div>
+                <div class="table-page-end">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NjNENzIxMDVCRUMxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NjNENzIwRjVCRUMxMUU2QkFGRkI4MUM1RkEyMTVFMyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQ0REQkVCM0IyNjNFNjExQUFEMkRBQzRCMDMyM0MwRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1MzczNzQ1MEFBNDNFNjExODc2Q0Y1RUU5MjExQkRCOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ph+clFwAAAG5SURBVHjazJTLSsNAFIbPTKotJs2uotZLva3ciU9gIIrLYkEXPoE7URAVClW3voBPUIRAF9VaiHsRVyJuLKmX0uqm0DbVtsmMJxXBKtgUFJxFkjkTvvnP/09COOfwG4P8CegyV4b4eaG2rg4tiR5aAs51oAQIIc315cOr5suJ1WnyFUQ/T+IXBes6VxJiyaxm1rmMENWpu1HdAlpXhiKhgChkn6oQSxnaS4OLwEH5UOQaJHbRUnRhNBzq6wHj2bSjx4ZmNpjMGVc6AhFKdNFLzJ254fBYryQYeRP2Tu60cg1h/GdYCwh3xguk/T6PuT0/Ehnvl5rK9k4dz5jsOjWzVn9/YM0V5cUGOZo0tPvnqj01KMMNBuEqtdYqAYYKBbxbDQYWZw3XrX0aavnVEndTd9ptrmJPBP3ChjKy4t5sjBkbVZ3Y99MPiUweIQOS4PgleUnxJ5Dni9lKtc58sVRWy6CSSVSyhRB/N3UgumuQc2acdown0x5HJZvqcET2CW0h30AHZ49HmULFxtiFnflQROoiRc6YTiiFjkCLMwEPngZrbTYY9ntpCVvVwfENi+0+E/Lv/kdvAgwAyorU04SC/NcAAAAASUVORK5CYII=">
+                </div>
+            </div>
+            <div class="table-page-right">
+                <div class="right-caret"></div>
+                设置页面呈现行列
+                <div class="table-page-input">
+                    <input>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/app.js"></script></body>
+</html>

@@ -1,0 +1,35 @@
+/*--- FORMS ---*/
+/*
+This is the bit you need.
+*/
+label{
+  position:absolute;
+  left:-9999px;
+}
+input,
+textarea{
+  font:inherit;
+  resize:none;
+}
+
+
+
+
+
+/*--- THE MAGIC ---*/
+/*
+This is the best bit!
+*/
+[placeholder]{
+  cursor:pointer;
+  padding:5px;
+  border:1px solid #999;
+
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+}
+[placeholder]:active,
+[placeholder]:focus{
+  cursor:text;
+}

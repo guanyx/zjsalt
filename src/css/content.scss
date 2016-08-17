@@ -1,0 +1,35 @@
+.content{
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgb(230, 230, 230);
+  position: relative;
+
+  .triangle{
+    position: absolute;
+    left: -17px;
+    top: 100px;
+
+    &-black{
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 14px solid transparent;
+      border-bottom: 14px solid transparent;
+      border-right: 17px solid rgb(230, 230, 230);
+      content: "";
+    }
+
+    &-white{
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-bottom: 12px solid transparent;
+      border-right: 15px solid #FFF;
+      content: "";
+      position: absolute;
+      left: 3px;
+      top: 2px;
+    }
+  }
+}

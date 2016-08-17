@@ -1,0 +1,51 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import "./scrollbar";
+@import "./font-awesome.min.css";
+
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  padding-bottom: 75px;
+  line-height: 1;
+}
+
+.main{
+  padding: 0 70px;
+  height: 755px;
+  margin-top: 20px;
+}
+
+.section{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-left: 225px;
+}
+
+.caret{
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 6px solid #000;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+  content: "";
+}
+
+.menu-left{
+  height: 100%;
+  width: 4px;
+  background-color: rgb(237, 237, 237);
+  left: 10px;
+  top: 0;
+  position: absolute;
+}
