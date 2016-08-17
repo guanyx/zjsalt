@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";__webpack_require__(1),__webpack_require__(20),__webpack_require__(26),$("input, textarea").placeholder();
+	"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{"default":e}}__webpack_require__(1),__webpack_require__(20),__webpack_require__(26);var _jquery=__webpack_require__(21),_jquery2=_interopRequireDefault(_jquery);(0,_jquery2["default"])("input, textarea").placeholder();
 
 /***/ },
 /* 1 */
