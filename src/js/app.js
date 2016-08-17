@@ -1,7 +1,13 @@
 import '../css/main.scss';
 import './lib/table';
 import './lib/placeholder';
+import './lib/browser';
 
 import $ from 'jquery';
 
-$('input, textarea').placeholder();
+if (Modernizr.ie8compat) {
+    $('input, textarea').placeholder();
+} else {
+    // not-supported
+}
+
