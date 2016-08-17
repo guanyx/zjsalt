@@ -7,6 +7,11 @@
   background-image: url("../img/bg.jpg");
   background-size: 100% 100%;
 
+  &-logo{
+    height: 130px * $base;
+    margin-bottom: 10px;
+  }
+
   &-form{
     position: absolute;
     left: 50%;

@@ -1858,6 +1858,8 @@ ul {
   padding-right: 49px;
   clear: both;
   overflow: hidden; }
+  .header .logo {
+    height: 28px; }
   .header img {
     display: inline-block;
     vertical-align: middle; }
@@ -2213,6 +2215,9 @@ ul {
   width: 100%;
   background-image: url(../img/bg.jpg);
   background-size: 100% 100%; }
+  .login-logo {
+    height: 91px;
+    margin-bottom: 10px; }
   .login-form {
     position: absolute;
     left: 50%;

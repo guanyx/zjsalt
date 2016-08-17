@@ -6,6 +6,10 @@
   clear: both;
   overflow: hidden;
 
+  .logo{
+    height: 40px * $base;
+  }
+
   img{
     display: inline-block;
     vertical-align: middle;
