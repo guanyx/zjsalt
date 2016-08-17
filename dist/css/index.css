@@ -1831,7 +1831,7 @@ ul {
   height: 100%;
   width: 100%;
   position: relative;
-  padding-left: 157.5px; }
+  padding-left: 161px; }
 
 .caret {
   display: inline-block;
@@ -2022,7 +2022,7 @@ ul {
             border-radius: 4px; }
 
 .menu {
-  width: 113.4px;
+  width: 119px;
   position: absolute;
   left: 24.5px;
   top: 10.5px; }
@@ -2166,7 +2166,7 @@ ul {
       display: inline-block;
       vertical-align: middle;
       color: #66636e;
-      font-size: 8.4px; }
+      font-size: 12px; }
     .table-page-num {
       width: 24.5px;
       height: 11.2px;
@@ -2176,7 +2176,7 @@ ul {
       padding: 0;
       margin: 0;
       outline: none;
-      font-size: 8.4px; }
+      font-size: 12px; }
     .table-page-begin, .table-page-previous, .table-page-next, .table-page-end {
       width: 24.5px;
       display: inline-block;
