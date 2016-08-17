@@ -1874,7 +1874,7 @@ ul {
     font-size: 14px; }
   .header-right {
     float: right;
-    font-size: 12.6px;
+    font-size: 14px;
     color: #666666; }
   .header-avatar, .header-badge, .header-user, .header-company, .header-message {
     display: inline-block;
@@ -2032,7 +2032,7 @@ ul {
     width: 100%;
     color: #838383;
     padding-left: 10.5px;
-    font-size: 12.6px;
+    font-size: 14px;
     vertical-align: middle; }
     .menu li i {
       display: inline-block;
