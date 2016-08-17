@@ -1,6 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const AutoPrefixer = require('autoprefixer');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const env = process.env.NODE_ENV;
 
@@ -78,6 +79,11 @@ loaders.push({
     test: /\.ejs$/,
     loader: 'ejs-tpl?variable=data&attrs[]=img:src!ejs-html'
 });
+
+plugins.push(new CopyWebpackPlugin([{
+    from: './src/asset',
+    to: './asset'
+}]));
 
 plugins.push(new HtmlWebpackPlugin({
     title: '浙盐集团业务综合管理系统',
