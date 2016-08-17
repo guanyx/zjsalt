@@ -1,12 +1,12 @@
 .nav{
-  height: 55px;
-  line-height: 55px;
+  height: 55px * $base;
+  line-height: 55px * $base;
   width: 100%;
   background: url("../img/navBg.png");
   background-size: cover;
   color: #fff;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 70px * $base;
+  padding-right: 70px * $base;
 
   &-time,
   &-weather,
@@ -21,24 +21,24 @@
   }
 
   &-time{
-    font-size: 18px;
+    font-size: 18px * $base;
   }
 
   &-date{
-    margin-left: 10px;
+    margin-left: 10px * $base;
   }
 
   &-day{
-    font-size: 12px;
+    font-size: 12px * $base;
   }
 
   &-cnday{
-    font-size: 14px;
+    font-size: 14px * $base;
   }
 
   &-city{
-    font-size: 12px;
-    margin-left: 8px;
+    font-size: 12px * $base;
+    margin-left: 8px * $base;
   }
 
   &-weather{
@@ -48,7 +48,7 @@
   }
 
   &-temp{
-    font-size: 20px;
+    font-size: 20px * $base;
     position: relative;
 
     &::before{
@@ -65,7 +65,7 @@
   }
 
   &-notice{
-    margin-left: 65px;
+    margin-left: 65px * $base;
     img{
       display: inline-block;
       vertical-align: middle;
@@ -83,23 +83,23 @@
   &-btn{
     display: inline-block;
     vertical-align: middle;
-    height: 40px;
-    line-height: 38px;
-    margin-left: 15px;
+    height: 40px * $base;
+    line-height: 38px * $base;
+    margin-left: 15px * $base;
     border: 1px solid rgb(164, 223, 253);
 
     img{
-      margin-left: 16px;
+      margin-left: 16px * $base;
     }
 
     span{
       display: inline-block;
-      margin-left: 12px;
-      margin-right: 30px;
+      margin-left: 12px * $base;
+      margin-right: 30px * $base;
     }
 
     .caret{
-      margin-right: 20px;
+      margin-right: 20px * $base;
       border-top-color: #FFF;
     }
   }

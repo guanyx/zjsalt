@@ -6,16 +6,16 @@
 
   .triangle{
     position: absolute;
-    left: -17px;
-    top: 100px;
+    left: -17px * $base;
+    top: 100px * $base;
 
     &-black{
       display: inline-block;
       width: 0;
       height: 0;
-      border-top: 14px solid transparent;
-      border-bottom: 14px solid transparent;
-      border-right: 17px solid rgb(230, 230, 230);
+      border-top: 14px * $base solid transparent;
+      border-bottom: 14px * $base solid transparent;
+      border-right: 17px * $base solid rgb(230, 230, 230);
       content: "";
     }
 
@@ -23,9 +23,9 @@
       display: inline-block;
       width: 0;
       height: 0;
-      border-top: 12px solid transparent;
-      border-bottom: 12px solid transparent;
-      border-right: 15px solid #FFF;
+      border-top: 12px * $base solid transparent;
+      border-bottom: 12px * $base solid transparent;
+      border-right: 15px * $base solid #FFF;
       content: "";
       position: absolute;
       left: 3px;

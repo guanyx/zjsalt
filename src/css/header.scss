@@ -1,8 +1,8 @@
 .header{
-  height: 80px;
-  line-height: 80px;
-  padding-left: 70px;
-  padding-right: 70px;
+  height: 80px * $base;
+  line-height: 80px * $base;
+  padding-left: 70px * $base;
+  padding-right: 70px * $base;
   clear: both;
   overflow: hidden;
 
@@ -14,17 +14,17 @@
   &-name{
     display: inline-block;
     vertical-align: middle;
-    height: 36px;
-    line-height: 36px;
-    padding-left: 12px;
+    height: 36px * $base;
+    line-height: 36px * $base;
+    padding-left: 12px * $base;
     border-left: 1px solid rgb(175, 175, 175);
     color: rgb(89, 89, 89);
-    font-size: 20px;
+    font-size: 20px * $base;
   }
 
   &-right{
     float: right;
-    font-size: 14px;
+    font-size: 14px * $base;
     color: rgb(102, 102, 102);
   }
 
@@ -38,20 +38,20 @@
   }
 
   &-company{
-    padding: 10px 14px;
+    padding: 10px * $base 14px * $base;
     border: 1px solid rgb(116, 210, 250);
     background-color: rgb(226, 242, 249);
     color: rgb(102, 102, 102);
     line-height: 1;
-    margin-left: 30px;
-    border-radius: 4px;
+    margin-left: 30px * $base;
+    border-radius: 4px * $base;
   }
 
   &-badge{
-    height: 18px;
-    width: 18px;
+    height: 18px * $base;
+    width: 18px * $base;
     text-align: center;
-    line-height: 20px;
+    line-height: 20px * $base;
     color: #FFF;
     font-size: 12px;
     background-image: url("../img/bandage_03.png");
@@ -60,7 +60,7 @@
   }
 
   &-user{
-    margin-left: 30px;
+    margin-left: 30px * $base;
 
     .caret{
       border-top-color: rgb(100, 100, 100);
@@ -68,10 +68,10 @@
   }
 
   &-avatar{
-    height: 42px;
-    width: 42px;
+    height: 42px * $base;
+    width: 42px * $base;
     text-align: center;
-    line-height: 42px;
+    line-height: 42px * $base;
     background-image: url("../img/circle_03.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
